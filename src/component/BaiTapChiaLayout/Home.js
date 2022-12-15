@@ -11,7 +11,6 @@ class Home extends Component {
 
             padding:0
         }
-
         return (
             <div className="container-fluid">
                 <div className="row">
