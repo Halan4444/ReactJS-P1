@@ -10,6 +10,10 @@ import RenderingCondition from "./RenderingConditions/RenderingCondition";
 import StateDemo from "./State/StateDemo";
 import Styling from "./Styling/Styling";
 import BaiTapChonXe from "./BaiTapChonXe/BaiTapChonXe";
+import RenderWithLoop from "./RenderWithLoop/RenderWithLoop";
+import BaiTapChiaLayout from "./component/BaiTapChiaLayout/BaiTapChiaLayout";
+import BaiTapRenderFilm from "./BaiTapRenderFilm/BaiTapRenderFilm";
+import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
 
 function App() {
   return (
@@ -21,7 +25,10 @@ function App() {
     {/*    <RenderingCondition/>*/}
     {/*    <StateDemo/>*/}
     {/*    <Styling/>*/}
-        <BaiTapChonXe/>
+    {/*    <BaiTapChonXe/>*/}
+    {/*    <RenderWithLoop/>*/}
+    {/*    <BaiTapRenderFilm/>*/}
+        <BaiTapThuKinh/>
     </div>
   );
 }
